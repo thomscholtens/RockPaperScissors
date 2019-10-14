@@ -15,12 +15,12 @@ class TypeConverter {
     }
 
     @TypeConverter
-    fun resultToInt(result: Game.Result): Int {
+    fun resultToInt(result: Game.Result): String {
         return result.value
     }
 
     @TypeConverter
-    fun intToResult(value: Int): Game.Result? {
+    fun intToResult(value: String): Game.Result? {
         return Game.Result.values().first { it.value == value }
     }
 }

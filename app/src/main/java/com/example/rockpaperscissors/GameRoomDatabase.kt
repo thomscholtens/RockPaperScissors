@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 
-@Database(entities = [Game::class], version = 2, exportSchema = false)
+@Database(entities = [Game::class], version = 3, exportSchema = false)
 @TypeConverters(TypeConverter::class)
 abstract class GameRoomDatabase : RoomDatabase() {
 
@@ -15,7 +15,7 @@ abstract class GameRoomDatabase : RoomDatabase() {
     abstract fun gameDao(): GameDao
 
     companion object {
-        private const val DATABASE_NAME = "GAMES"
+        private const val DATABASE_NAME = "GAMESS"
 
         @Volatile
         private var gameRoomDatabaseInstance: GameRoomDatabase? = null

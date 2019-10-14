@@ -28,10 +28,10 @@ data class Game(
     var id: Long? = null
 ) : Parcelable {
 
-    enum class Result(val value: Int) {
-        WIN(1),
-        DRAW(0),
-        LOSE(-1)
+    enum class Result(val value: String) {
+        WIN("win"),
+        DRAW("draw"),
+        LOSE("lose")
     }
 
     enum class Choice {
