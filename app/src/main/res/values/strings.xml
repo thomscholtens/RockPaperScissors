@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Rock Paper Scissors</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="welcome">Welcome</string>
+    <string name="instructions">Instructions: select rock, paper or scissors to play.</string>
+    <string name="statistics_label">Your all time statistics</string>
+    <string name="statistics">Win: 0 Draw: 0 Lose: 0</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+    <string name="vs">V.S.</string>
+    <string name="computer">Computer</string>
+    <string name="you">You</string>
+    <string name="lose">Computer won!</string>
+    <string name="draw">Draw</string>
+    <string name="win">You won!</string>
+    <string name="stats">Win: %d  Draw: %d  Lose: %d</string>
+
+</resources>
